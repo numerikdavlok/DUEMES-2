@@ -4,9 +4,7 @@
 
 Développement d'un site en html, javascript et css pour publier numériquement la correspondance littéralopicturale que Yan Pavlik et Linus Kessler ont entretenus durant l'année 2020. Le projet prend pour exemple l'application *Phallaina* sortie en 2016 afin de développer une lecture numérique verticale du recueil. </br>
 La volonté de ce projet est d'utiliser le code pour mettre en valeur les liens entre les textes de Linus Kessler et les dessins de Yan Pavlik. La dynamique de l'écriture du petit receuil "DUEMES" consistait en effet en un dialogue entre images et textes : l'un propose, l'autre répond. Les textes et les images sont ainsi intimement liés dans le processus de création, l'un dépendant de l'autre dans sa genèse. L'animation permise par la librairie GSAP donne les outils de ce développement.</br>
-L'enjeu principal de ce projet est de se plonger dans le maniement du CSS et du Javascript pour développer un script original utilisant les outils discutés en cours. 
-</br>
-pour créer une dynamique de lecture analogue à celle de Phallaina. Notre envie est avant tout de comprendre et de s'approprier ces outils à travers le cas concret de ce projet. 
+L'enjeu principal de ce projet est de se plonger dans le maniement du CSS et du Javascript pour développer un script original utilisant les outils discutés en cours pour créer une dynamique de lecture analogue à celle de Phallaina. Notre envie est avant tout de comprendre et de s'approprier ces outils à travers le cas concret de ce projet. 
 </br>
 Ce travail serait également un pretexte pour comprendre dans la pratique du fonctionnement de la possibilité d'adapter un site à différents interfaces.
 
