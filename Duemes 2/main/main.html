@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Duèmes</title>
+    <link rel="stylesheet" href="main.css">
+        <!--Javascript à la fin pour-->
+        <!--GSAP-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/ScrollTrigger.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/MotionPathPlugin.min.js"></script>
+        <script src="main.js"></script>
+</head>
+<body>
+    <div id="main">
+        <!--1ème page-->
+        <section class="page" id="cliff">
+            <div class="text">
+                <p id="cliff1">J'aime ma place</p>
+                <p id="cliff2">Au bord du précipice.</p>
+            </div>
+        </section>
+        <section class="interpage"></section>
+
+        <!--2ème page-->
+        <section class="page" id="hand">
+            <svg id="hands_path" viewBox="0 0 600 600">
+                <path style="fill:none;stroke:none" d="m 3.8948393,83.349562 c 321.7137307,0.778968 289.7760507,0 289.7760507,0 0,0 160.46738,6.231743 160.46738,155.793578 0,149.56183 -96.59202,186.17332 -171.37294,186.17332 -74.78091,0 -163.19376,-41.2853 -163.19376,-166.30964 0,-125.02435 69.71762,-175.657258 175.65725,-175.657258 105.93963,0 203.31062,1.557936 203.31062,1.557936" id="hands_path_for_text" sodipodi:nodetypes="ccssssc" inkscape:label="hands_path_for_text"></path>
+                
+                <text id="handsText" fill="#000"  xml:space="preserve">
+                    <textPath id="handsTextPath" xlink:href="#hands_path_for_text" startOffset="-90%">
+                        J'ai chaud à la main qui t'effleure.
+                        J'ai froid à la main qui fume
+                        Ce moment où les lumières s'inversent
+                    </textPath>
+                </text>
+            </svg>
+        </section>
+        <section class="interpage"></section>
+
+        <!--3ème page-->
+        <section class="page" id="fishing">
+            <svg id="fish_path" viewBox="0 0 800 800">
+                <path style="fill:none;stroke:none" d="M 629.38707,795.96977 610.57935,421.15869 c 0,0 -12.76239,-13.43409 -13.43409,-29.555 -0.67171,-16.1209 -10.07557,-2.68681 -10.07557,-2.68681 0,0 3.35852,6.04534 6.04534,6.04534 2.68682,0 11.41898,-11.41898 11.41898,-17.46432 0,-6.04534 -8.73216,-26.19647 -8.73216,-26.19647 0,0 -212.93031,-21.49455 -319.05962,62.46851 C 170.61293,497.733 24.18136,523.92947 24.18136,523.92947 l 257.93451,-5.37363" id="path_fish_1" inkscape:label="path_fish_1"></path>
+                <path style="fill:none;stroke:none" d="M 629.38074,796.02094 610.57302,421.20986 c 0,0 -12.76239,-13.43409 -13.43409,-29.555 -0.67171,-16.1209 -10.07557,-2.68681 -10.07557,-2.68681 0,0 3.35852,6.04534 6.04534,6.04534 2.68682,0 11.41898,-11.41898 11.41898,-17.46432 0,-6.04534 -8.73216,-26.19647 -8.73216,-26.19647 0,0 -212.93031,-21.49455 -319.05962,62.46851 C 170.6066,497.78417 15.442865,557.56586 15.442865,557.56586 l 309.655755,-4.03022" id="path_fish_2" inkscape:label="path_fish_2" sodipodi:nodetypes="ccscsscscc"></path>
+                <path style="fill:none;stroke:none" d="M 629.95803,796.01969 611.15031,421.20861 c 0,0 -12.76239,-13.43409 -13.43409,-29.555 -0.67171,-16.1209 -10.07557,-2.68681 -10.07557,-2.68681 0,0 3.35852,6.04534 6.04534,6.04534 2.68682,0 11.41898,-11.41898 11.41898,-17.46432 0,-6.04534 -8.73216,-26.19647 -8.73216,-26.19647 0,0 -212.93031,-21.49455 -319.05962,62.46851 C 171.18389,497.78292 15.684299,593.16495 15.684299,593.16495 l 312.342581,-1.67926" id="path_fish_3" inkscape:label="path_fish_3" sodipodi:nodetypes="ccscsscscc"></path>
+                <path style="fill:none;stroke:none" d="M 629.05962,796.27242 610.2519,421.46134 c 0,0 -12.76239,-13.43409 -13.43409,-29.555 -0.67171,-16.1209 -10.07557,-2.68681 -10.07557,-2.68681 0,0 3.35852,6.04534 6.04534,6.04534 2.68682,0 11.41898,-11.41898 11.41898,-17.46432 0,-6.04534 -8.73216,-26.19647 -8.73216,-26.19647 0,0 -212.93031,-21.49455 -319.05962,62.46851 C 170.28548,498.03565 15.121745,627.0029 15.121745,627.0029 l 299.244345,0" id="path_fish_4" inkscape:label="path_fish_4" sodipodi:nodetypes="ccscsscscc"></path>
+                
+                <text id="fishText1" fill="#000"  xml:space="preserve">
+                    <textPath id="fishTextPath1" xlink:href="#path_fish_1" startOffset="-20%">Sans fil donner à retordre</textPath>
+                </text>
+                <text id="fishText2" fill="#000"  xml:space="preserve">
+                    <textPath id="fishTextPath2" xlink:href="#path_fish_2" startOffset="-20%">Le cou des poissons-pêcheurs</textPath>
+                </text>
+                <text id="fishText3" fill="#000"  xml:space="preserve">
+                    <textPath id="fishTextPath3" xlink:href="#path_fish_3" startOffset="-20%">Un blason sur un pose-fesse</textPath>
+                </text>
+                <text id="fishText4" fill="#000"  xml:space="preserve">
+                    <textPath id="fishTextPath4" xlink:href="#path_fish_4" startOffset="-20%">Et des massifs l'acide fraîcheur.</textPath>
+                </text>
+            </svg>
+        </section>
+        <section class="interpage"></section>
+
+
+        <!--4ème page-->
+        <section class="page" id="bigFoot">
+            <svg id="foot_path" viewBox="0 0 800 800">
+                <text id="bigFootText1" class="foot_text">Tant d'automnes</text>
+                <text id="bigFootText2" class="foot_text">Et ton buste friand</text>
+                <text id="bigFootText3" class="foot_text">Qui au matin fuit.</text>
+            </svg>
+        </section>
+        <section class="interpage"></section>
+
+
+        <!--5ème page-->
+        <section class="page" id="parasol">
+            <svg id="para_path" viewBox="0 0 800 800">
+                <path style="fill:none;stroke-width:0.75" d="m 425.01637,-3.6513434 3.65135,131.4483634 c 0,0 73.02686,-116.112721 74.4874,41.62532 1.46054,157.73803 -9.49349,313.28526 -9.49349,313.28526 0,0 6.57242,-35.78317 48.928,-35.05289 42.35558,0.73026 230.03464,-0.73028 230.03464,-0.73028" id="para_path_1" sodipodi:nodetypes="ccscsc" inkscape:label="para_path_1"></path>
+                <path style="fill:none;stroke-width:0.798091" d="M 425.01637,-3.6513434 424.02032,122.86124 c 0,0 77.67426,-109.147223 79.1348,69.46791 1.46054,178.61513 -70.0717,318.06786 -70.0717,318.06786 0,0 67.15063,-3.83755 109.50621,-3.01062 42.35558,0.82691 230.03464,-0.82693 230.03464,-0.82693" id="para_path_2" sodipodi:nodetypes="ccscsc" inkscape:label="para_path_2"></path>
+                <path style="fill:none;stroke-width:0.819935" d="m 425.01637,-3.6513434 1.97312,130.3828334 c 0,0 74.70509,-112.05387 76.16563,76.47261 1.46054,188.52648 -83.37224,333.55597 -83.37224,333.55597 0,0 80.45117,-1.88903 122.80675,-1.01621 42.35558,0.87279 230.03464,-0.87282 230.03464,-0.87282" id="para_path_3" sodipodi:nodetypes="ccscsc" inkscape:label="para_path_3"></path>
+                <path style="fill:none;stroke-width:0.856274" d="m 425.01637,-3.6513434 -4.4816,124.7366634 c 0,0 81.15981,-104.747022 82.62035,100.86072 1.46054,205.60773 -6.57242,371.03212 -6.57242,371.03212 0,0 3.65135,-9.31482 46.00693,-8.36292 42.35558,0.95187 230.03464,-0.9519 230.03464,-0.9519" id="para_path_4" sodipodi:nodetypes="ccscsc" inkscape:label="para_path_4"></path>
+                <path style="fill:none;stroke-width:0.874952" d="M 425.01637,-3.6513434 425.44036,124.8981 c 0,0 76.25422,-107.678208 77.71476,106.99736 1.46054,214.67556 -11.6843,399.05667 -11.6843,399.05667 0,0 -3.65134,-23.57752 38.70424,-22.58363 42.35558,0.99385 242.44921,1.19692 242.44921,1.19692" id="para_path_5" sodipodi:nodetypes="ccscsc" inkscape:label="para_path_5"></path>
+                <path style="fill:none;stroke-width:0.894922" d="M 425.01637,-3.6513434 431.3787,130.44658 c 0,0 70.31588,-112.263085 71.77642,112.32383 1.46054,224.58691 -15.33564,415.93193 -15.33564,415.93193 0,0 -7.30268,-19.3648 35.0529,-18.32502 42.35558,1.03973 249.75189,-2.50032 249.75189,-2.50032" id="para_path_6" sodipodi:nodetypes="ccscsc" inkscape:label="para_path_6"></path>
+                <path style="fill:none;stroke-width:0.915278" d="M 425.01637,-3.6513434 422.34209,122.14612 c 0,0 79.35249,-102.958017 80.81303,131.962 1.46054,234.92002 -16.79618,425.77201 -16.79618,425.77201 0,0 13.87511,-12.4868 56.23069,-11.39918 42.35558,1.08757 230.03464,-1.08762 230.03464,-1.08762" id="para_path_7" sodipodi:nodetypes="ccscsc" inkscape:label="para_path_7"></path>
+                <text id="paraText1" fill="#000"  xml:space="preserve">
+                    <textPath id="paraTextPath1" xlink:href="#para_path_1" startOffset="-100%">J'accueille ce qui m'attend</textPath>
+                </text>
+                <text id="paraText1" fill="#000"  xml:space="preserve">
+                    <textPath id="paraTextPath2" xlink:href="#para_path_2" startOffset="-100%">Quels marais stérils nous hantent</textPath>
+                </text>
+                <text id="paraText1" fill="#000"  xml:space="preserve">
+                    <textPath id="paraTextPath3" xlink:href="#para_path_3" startOffset="-100%">Quelle plage glacée sera notre tombe</textPath>
+                </text>
+                <text id="paraText1" fill="#000"  xml:space="preserve">
+                    <textPath id="paraTextPath4" xlink:href="#para_path_4" startOffset="-100%">La terre mâche et rote,</textPath>
+                </text>
+                <text id="paraText1" fill="#000"  xml:space="preserve">
+                    <textPath id="paraTextPath5" xlink:href="#para_path_5" startOffset="-100%">de nos pieds couverte</textPath>
+                </text>
+                <text id="paraText1" fill="#000"  xml:space="preserve">
+                    <textPath id="paraTextPath6" xlink:href="#para_path_6" startOffset="-100%">Ombrelle de fable résiste,</textPath>
+                </text>
+                <text id="paraText1" fill="#000"  xml:space="preserve">
+                    <textPath id="paraTextPath7" xlink:href="#para_path_7" startOffset="-100%">par nos mains ouverte</textPath>
+                </text>
+            </svg>
+        </section>
+        <section class="interpage"></section>
+        
+        <!--6ème page-->
+        <section class="page" id="dark">
+            <svg id="dark_path" viewBox="0 0 800 800">  
+                <text id="darkText1">Enténébrons</text>
+                <text id="darkText2">De désespoir</text>
+                <text id="darkText3">Le déluge</text>
+                <text id="darkText4">Ce matin.</text>
+            </svg>
+        </section>
+        <section class="interpage"></section>
+        
+        <!--7ème page-->
+        <section class="page" id="ass"> 
+            <svg id="ass_path" viewBox="0 0 800 800">  
+                <text id="assText1">Dans ton flanc a roulé</text>
+                <text id="assText2">un nombre vermeil</text>
+                <text id="assText3">sur une rose crinière</text>
+                <text id="assText4">Ton iris infinitésimal</text>
+                <text id="assText5">du ciel aurore tire</text>
+                <text id="assText6">son inestimable largeur</text>
+                <text id="assText7">Entre tes hanches s'affronte</text>
+                <text id="assText8">L'horizon bleu</text>
+            </svg>
+        </section>   
+        <section class="interpage"></section>
+        
+        <!--8ème page-->
+        <section class="page" id="porn">   
+            <svg id="porn_path" viewBox="0 0 800 800">  
+                <text id="pornText1">QUE DE L'IMAGE RECROQUEVILLEE</text>
+                <text id="pornText2">SUR UN ESPACE ABSENT</text>
+                <text id="pornText3">CELUI DE L'INTIME</text>
+                <text id="pornText4">RESSORTE</text>
+                <text id="pornText5">LE PLI QU'IMPOSE</text>
+                <text id="pornText6">VOIR ET ETRE VU</text>
+                <text id="pornText7">TENIR TETE A L'IMAGE</text>
+                <text id="pornText8">LA REMUER DANS L'ENTREJAMBE</text>
+            </svg>
+        </section>
+        <section class="interpage"></section>
+        
+        <!--9ème page-->
+        <section class="page" id="dickception">
+            <svg id="dickception_path" viewBox="0 0 800 800">  
+                <text id="dickceptionText1">Se voir</text>
+                <text id="dickceptionText2">Soi-même dans la glace</text>
+                <text id="dickceptionText3">Se voir se voir</text>
+            </svg>
+        </section>    
+        <section class="interpage"></section>
+        <section class="page" id="fin">FIN</section>
+        
+    </div>
+</body>
+</html>

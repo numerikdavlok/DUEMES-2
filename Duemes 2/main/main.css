@@ -1,0 +1,282 @@
+@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Special Elite';
+    overflow-x:hidden;
+    background-color: #fafafc;
+    text-align: center;
+    background-image: url('../images/two-way-arrows.svg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: bottom 10vh right 5vw;
+    background-size: 10vw;
+}
+
+#main{
+    display: inline-block;
+}
+
+section.page{
+    width:800px;
+    height: 800px;
+    background-color:white; 
+    opacity: 0.9;
+}
+
+/* Pour poser l'image devant la page  */
+section.page:before {
+    position: absolute;
+    content: '';
+    height: 800px;
+    width:800px;
+    pointer-events: none;
+    z-index: 1;
+    background-repeat: no-repeat;
+    left:0;
+  }
+
+  .interpage{
+    height: 10vh;
+  }
+
+/* 
+    CLIFF - 1st page
+ */
+
+html {
+    --cliffBgPos: center bottom -100vh; /* variable css utilisée pour animer l'image */
+}
+
+#cliff:before{
+    background-image:url('../images/cliff.svg');
+    background-position: var(--cliffBgPos);
+ }
+
+#cliff .text{
+    text-align: center;
+}
+ 
+#cliff p{
+    transform-origin: bottom;
+}
+
+#cliff1{
+    rotate: 5deg;
+}
+#cliff2{
+    rotate: -5deg
+}
+
+
+/*
+    HAND - 2nd page
+ */
+
+#hand:before{
+    background-image:url('../images/hand.svg');
+    background-position: center center;
+}
+
+#hand{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#hands_path{
+    width:600px;
+    height:600px;
+    /* petit ajustement pour matcher */
+    margin-top:-30px;
+    margin-left:100px;
+}
+
+
+
+
+/*
+    FISHING - 3rd page
+ */
+#fishing:before{
+    background-image:url('../images/fishing.svg');
+    background-position: center center;
+}
+
+#fishing{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#fish_path{
+    width:800px;
+    height:800px;
+}
+
+
+
+
+/*
+    FOOT - 4th page
+ */
+
+ #bigFoot:before{
+    background-image:url('../images/foot.svg');
+    background-position: center center;
+}
+
+#bigFoot{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#foot_path{
+    width:800px;
+    height:800px;
+}
+
+#foot_path text{
+    visibility: hidden;
+}
+
+
+/*
+    Parasol - 5th page
+ */
+
+ #parasol:before{
+    background-image:url('../images/parasol.svg');
+    background-position: center center;
+    background-size:800px;
+}
+
+#parasol{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#parasol_path{
+    width:800px;
+    height:800px;
+}
+
+/*
+    DARK - 6th page
+ */
+
+ #dark:before{
+    background-image:url('../images/dark.svg');
+    background-position: center center;
+    background-size:800px;
+}
+
+#dark{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#dark_path{
+    width:800px;
+    height:800px;
+}
+
+#dark_path text{
+    visibility: hidden;
+}
+
+/*
+    ASS - 7th page
+ */
+
+ #ass:before{
+    background-image:url('../images/ass.svg');
+    background-position: center center;
+    background-size:800px;
+    z-index: -1;
+}
+
+#ass{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#ass_path{
+    width:800px;
+    height:800px;
+}
+
+#ass_path text{
+    visibility: hidden;
+    text-shadow: 0 0 2px white;
+    z-index: 2;
+}
+
+
+
+/*
+    PORN - 8th page
+ */
+
+ #porn:before{
+    background-image:url('../images/porn.svg');
+    background-position: center center;
+    background-size:800px;
+    z-index: -1;
+}
+
+#porn{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#porn_path{
+    width:800px;
+    height:800px;
+}
+
+#porn_path text{
+    visibility: hidden;
+    z-index: 2;
+}
+
+
+
+/*
+    PORN - 9th page
+ */
+
+ #dickception:before{
+    background-image:url('../images/dickception.svg');
+    background-position: center center;
+    background-size:800px;
+    z-index: -1;
+}
+
+#dickception{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#dickception_path{
+    width:800px;
+    height:800px;
+}
+
+#dickception_path text{
+    z-index: 2;
+}
+
+
+
+#fin{
+    height: 30vh;
+    line-height: 30vh;
+}
