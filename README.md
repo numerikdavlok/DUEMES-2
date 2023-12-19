@@ -15,12 +15,14 @@ L'enjeu principal de ce projet est de se plonger dans le maniement de GSAP pour 
 
 ## III. Procédure d'installation
 
+Utilisation de Visual Code Studio avec Live Server pour voir le résultat. </br>
 7h00 : 4e (foot) : apprendre à utiliser les motionpath pour animer le texte avec gsap sans suivre un path , 5e (parasol), 6e (dark), 7e (ass), 8e (porn) et 9e (dickception), finitions et tentative d'optimisation pour le responsive (meilleure affichage pour tous les écrans) </br>
 3h : 2ème page (hands) Dessiner le path selon l'image sur inkscape, copier coller le code svg du path dans une balise svg directement dans la page html et mettre le texte, animer la propriété startOffset, animer le autoalpha pour faire disparaitre ou apparaitre les choses, appliqué à la 3ème page (fishing) </br>
 2h30 : recherche sur comment animer du texte d'une manière plus complexe, compréhension de la technique qui suit le long d'un path </br>
 1h30 : 1ère page (cliff) : finalisation, mise en place d'une façon générale d'enchainer les pages (en utilisant la balise section html) </br>
 1h30 : Amélioration de la compréhension du scrolltrigger et du concept de timeline et d'animation from et to de GSAP, 1ère page (cliff) </br>
 2h : Compréhension du ScrollTrigger, 1ère page(cliff) : animation du texte, creation du debut de la page, modfication de cliff.svg dans inkscape, début de recherche sur la façon d'animer hand (en rond) </br>
+
 
 ## IV.  modules, librairies
 - Indesign pour la vectorisation des images
